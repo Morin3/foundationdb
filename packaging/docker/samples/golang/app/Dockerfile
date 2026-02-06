@@ -21,7 +21,7 @@
 # see https://github.com/moby/moby/issues/34129
 ARG FDB_VERSION
 FROM foundationdb/foundationdb:${FDB_VERSION} as fdb
-FROM golang:1.26rc1-alpine3.23
+FROM golang:1.26rc3-alpine3.23
 ARG FDB_VERSION
 
 WORKDIR /tmp
