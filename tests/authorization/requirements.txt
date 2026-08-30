@@ -8,5 +8,5 @@ pluggy==1.0.0
 py==1.11.0
 pycparser==2.21
 pyparsing==3.0.9
-pytest==7.1.2
+pytest==9.0.3
 tomli==2.0.1
